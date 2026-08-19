@@ -760,6 +760,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BoardPlacemet
   boardPrefab: {fileID: 2493307576495550680, guid: 0c9f8d77b41eea8488ebff87fafcfdd9, type: 3}
+  boardPreviewPrefab: {fileID: 2493307576495550680, guid: 40e9027db56ad6c488b4d7a4b440200a, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
