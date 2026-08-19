@@ -672,6 +672,8 @@ GameObject:
   - component: {fileID: 2075805345}
   - component: {fileID: 2075805344}
   - component: {fileID: 2075805343}
+  - component: {fileID: 2075805347}
+  - component: {fileID: 2075805346}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -729,6 +731,35 @@ Transform:
   - {fileID: 1968910828}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2075805346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075805342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.ARFoundation::UnityEngine.XR.ARFoundation.ARRaycastManager
+  <trackablesChanged>k__BackingField:
+    m_PersistentCalls:
+      m_Calls: []
+  m_RaycastPrefab: {fileID: 0}
+--- !u!114 &2075805347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075805342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6d451d20d6b2374eb1e738c8b6ee9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BoardPlacemet
+  boardPrefab: {fileID: 2493307576495550680, guid: 0c9f8d77b41eea8488ebff87fafcfdd9, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
